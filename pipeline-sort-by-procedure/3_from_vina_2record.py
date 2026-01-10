@@ -8,7 +8,7 @@ Created on Sat Dec  7 21:46:38 2024
 import os
 import re
 import pandas as pd
-from datetime import datetime
+
 
 def analyze_docking_results(input_folder, output_path):
     """
@@ -76,7 +76,7 @@ def analyze_docking_results(input_folder, output_path):
 
 # --- Manual Execution ---
 if __name__ == "__main__":
-    target_results = ""
-    target_output = ""
+    results_folder = "./result"
+    output_path = "./analysis.csv"
     
-    analyze_docking_results(target_results, target_output)
+    analyze_docking_results(results_folder, output_path)

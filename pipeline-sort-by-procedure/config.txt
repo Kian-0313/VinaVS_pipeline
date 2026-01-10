@@ -1,0 +1,8 @@
+ligand_dir=./3D_conformation/
+project_name=MDM2
+vina_path=./vina_1.2.7_linux_x86_64
+vina_config_path=./vina_config.txt
+
+
+
+
