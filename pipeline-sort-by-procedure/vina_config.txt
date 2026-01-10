@@ -1,0 +1,11 @@
+receptor = MDM2.pdbqt
+center_x = 8.270
+center_y = -63.330
+center_z = -28.750
+size_x = 10
+size_y = 10
+size_z = 10
+exhaustiveness = 16
+num_modes = 9
+
+
