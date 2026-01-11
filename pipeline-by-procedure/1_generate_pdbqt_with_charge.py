@@ -111,9 +111,9 @@ def batch_process_smiles(input_file, output_path):
     print("Batch processing complete.")
 
 # --- Example Usage ---
-#input_path = "C:\\Users\\17534\\Desktop\\mol.smi"
+input_path = "./ChEMBL_220K.smi"
 """csv mode need row named 'SMILES' and 'ID' """
-#input_path = "C:\\Users\\17534\\Desktop\\mol.csv"  
+#input_path = "./mol.csv"  
 
-#output_dir = "C:\\Users\\17534\\Desktop\\3D_conformation"
-#batch_process_smiles(input_path, output_dir)
+output_dir = "./3D_conformation"
+batch_process_smiles(input_path, output_dir)
