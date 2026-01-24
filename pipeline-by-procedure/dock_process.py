@@ -34,7 +34,7 @@ vina_config_path = config.get("vina_config_path")
 # This ensures that each 'batch' process only takes up the specified amount of cores
 vina_cpu = config.get("cpu_nums", "1")
 
-output_dir = f"./{project_name}/result"
+output_dir = f"./result"
 
 # Ensure output directory exists
 os.makedirs(output_dir, exist_ok=True)
